@@ -9,8 +9,7 @@ Installation
 
 ::
 
-    cd path/to/pyframe/tools/jirasprintlog
-    python -m pip install . --proxy http://10.71.16.7:8008
+    pip install .
 
 Dependencies
 ============
@@ -32,7 +31,7 @@ Put config file in `~/gjl.ini`.
 ::
 
         [DEFAULT]
-        JIRA_URL = http://webvrt59:8080
+        JIRA_URL = http://jira.url
         JIRA_USER = USER123
         JIRA_PASS = Pass123
 
